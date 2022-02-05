@@ -192,7 +192,7 @@ class HomePage extends State<DynamicChange> {
                     print(guess);
                     if (guess == null) {
                       _show_message('กรอกข้อมูลไม่ถูกต้อง ให้กรอกเฉพาะตัวเลขเท่านั้น');
-
+                      _showOkDialog(context, 'RESULT', 'กรุณากรอกตัวเลข');
                       return;
                     }
 
